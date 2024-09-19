@@ -1,7 +1,14 @@
-lab3/fred_apikey.txt
+lab?.md
+assignment?.md
+.DS_Store
+
 lab2/secret.txt
 lab2/private_data.csv
+
+lab3/fred_apikey.txt
 lab3/djia.json
 lab3/djia.csv
-lab?.md
-.DS_Store
+
+assignment1/assignment1.png
+assignment1/data/sp500.csv
+assignment1/data/sp500.json
