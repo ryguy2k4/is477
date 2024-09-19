@@ -3,7 +3,6 @@ import json
 import pandas as pd
 import matplotlib.pyplot as plt
 import hashlib
-import os
 
 with open("lab3/fred_apikey.txt", "r") as f:
     apikey = f.readline().strip()
@@ -18,9 +17,6 @@ response = requests.get(url)
 response.raise_for_status()
 
 json_data = response.json()
-
-os.mkdir('./assignment1/data')
-os.mkdir('./assignment1/results')
 
 with open("assignment1/data/sp500.json", 'w') as f:
     f.write(json.dumps(json_data, indent=4))
