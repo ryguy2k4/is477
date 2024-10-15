@@ -19,7 +19,7 @@ CREATE TABLE Airline1_Flight(
     ArrivalTime TEXT,
     ArrivalGate TEXT,
     PlaneId NUMBER,
-    PRIMARY KEY (DepartureDate),
+    PRIMARY KEY (DepartureDate, FlightId),
     FOREIGN KEY (FlightID) REFERENCES Airline1_Schedule(FlightId)
 );
 
