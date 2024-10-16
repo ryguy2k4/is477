@@ -1,4 +1,4 @@
-SELECT a.Airline as Airline, a.FlightNumber as FlightNumber, NULL as ArrivalAirport, a.Terminal || a.Gate as ArrivalGate
+SELECT a.Airline as Airline, a.FlightNumber as FlightNumber, 'EWR' as ArrivalAirport, a.Terminal || a.Gate as ArrivalGate
 FROM Airport3_Arrivals as a
 
 UNION
