@@ -27,3 +27,7 @@ lab8/comparisonA.txt
 lab8/comparisonB.txt
 lab8/venv.md
 lab8/requirements.txt
+
+__pycache__
+lab9/data
+.snakemake
