@@ -31,3 +31,4 @@ lab8/requirements.txt
 __pycache__
 lab9/data
 .snakemake
+lab9/requirements.txt
