@@ -1,0 +1,5 @@
+,Facility_Type,Facility_Type,Count,Count
+,self,other,self,other
+308,School,,2905.0,1361.0
+309,Grocery Store,School,5679.0,2905.0
+310,Restaurant,Grocery Store,33548.0,5679.0
