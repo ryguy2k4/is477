@@ -1,4 +1,4 @@
-# cs307
+# is477
 Coursework for IS 477 (Data Management, Curation & Reproducability) at UIUC. I took this class during the Fall 2024 semester.
 
 ## Course Description
